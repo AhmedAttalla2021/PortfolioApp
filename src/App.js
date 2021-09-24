@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Navbar from "./components/Navbar/navbar";
 
 function App() {
-  return (
-    <h2>Portfolio App</h2>
-  );
+  return <Navbar />;
 }
 
 export default App;
