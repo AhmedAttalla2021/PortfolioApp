@@ -40,3 +40,34 @@ ul li a:hover {
  ul li a:focus {
   border-top: 0.125rem solid rgb(194, 133, 21);
 }
+
+
+/****** Header*******/
+
+.wrapper {
+
+background: url(background.jpg) no-repeat;
+
+background-size: cover;
+background-position: center;
+height: 90vh;
+
+}
+
+.main {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ font-family: "Roboto Condesed" sans-serif;
+}
+.main h1 {
+  color: orange;
+  text-transform: uppercase;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: white;
+}
